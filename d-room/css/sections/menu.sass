@@ -1,0 +1,177 @@
+//___STYLE_MENU_OPEN_BNT
+.nav
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 120px
+  margin-top: -120px
+
+.item
+  margin: 30px
+  width: 10px
+  height: 10px
+  background: #F2F2F2
+  border-radius: 50px
+  border: 15px solid #FF4D4D
+  transition: 0.3s, border 0.1s ease-out 0s
+  position: relative
+
+
+.item:hover
+  width: 5px
+  height: 5px
+  background: #FF4D4D
+  border: 40px solid #F2F2F2
+
+.txt
+  color: transparent
+  position: absolute
+  transform: translate(-50%, -15px)
+  left: 50%
+  transition: .8s, border .2s
+
+.item:hover .txt
+  /* opacity: 1;
+  color: $red
+  transform: translate(-50%, -30px)
+
+
+//___MENU_WINDOW___
+.menu-active
+  position: absolute
+  z-index: 3
+  /* bottom: 80px;
+  display: flex
+  //justify-content: center
+  align-items: center
+  flex-direction: column
+  width: 100vw
+  height: 100vh
+  &:after
+    height: 120px
+
+.list
+  display: flex
+  width: 100%
+  align-items: center
+  height: 69vh
+
+.list__item a
+  display: block
+  text-align: center
+  text-transform: uppercase
+  font-size: 4rem
+  font-weight: bolder
+  padding-bottom: 20px
+  color: $black
+  transition: .3s ease-in-out
+  &:hover
+    color: $white
+
+.nav-close
+  position: absolute
+  z-index: 7
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 120px
+  bottom: 0
+  transition: .3s
+
+.txt-close
+  color: transparent
+  position: absolute
+  transform: translate(-50%, -15px)
+  left: 50%
+  transition: .8s, border .2s
+
+.item-close
+  margin: 30px
+  width: 30px
+  height: 30px
+  background: $white
+  border-radius: 50px
+  /* border: 15px solid transparent;
+  transition: 0.3s, border 0.1s ease-in-out
+  position: relative
+  &:hover
+    //border-radius: 0px
+    transform: rotate(360deg)
+
+
+
+//communication-menu
+.communication-menu
+  width: 100%
+  display: flex
+  align-items: flex-end
+
+.ta_right
+  text-align: right
+.ta_center
+  text-align: center
+.ta_left
+  text-align: left
+
+.communication-menu__item
+  display: block
+
+.communication-menu__title
+  @include Proxima(extrabold)
+  font-size: 1.5rem
+  color: $black
+  padding-bottom: 10px
+
+.communication__info
+  @include Proxima(regular_italic)
+  color: $black
+  font-size: 1rem
+
+///////////////////////////
+.dn
+  display: none
+
+.df
+  display: flex
+
+.opacity
+  opacity: 0
+
+
+
+//open menu
+
+.open__menu
+  animation: open__menu 800ms forwards
+@keyframes open__menu
+  0%
+    border: 15px solid red
+    border-radius: 50%
+  100%
+    border: 120vw solid red
+    border-radius: 50%
+
+.open__list
+  animation: open__list 750ms forwards
+@keyframes open__list
+  0%
+    opacity: 0
+    transform: translateY(20px)
+  100%
+    opacity: 1
+    transform: translateY(0px)
+
+
+//close menu
+
+.close__menu
+  animation: close__menu .2s forwards
+@keyframes close__menu
+  0%
+    border: 120vw solid red
+    //opacity: 1
+
+  100%
+    border: 15px solid red
+    border-radius: 120vw
+    //opacity: 0
