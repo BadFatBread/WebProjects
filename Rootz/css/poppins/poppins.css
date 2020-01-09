@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Light"), local("/Poppins-Light"), url("poppins/Poppinslight.woff2") format("woff2"), url("poppins/Poppinslight.woff") format("woff"), url("poppins/Poppinslight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: local("poppins/Poppins Regular"), local("poppins/Poppins-Regular"), url("poppins/Poppinsregular.woff2") format("woff2"), url("poppins/Poppinsregular.woff") format("woff"), url("poppins/Poppinsregular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins-BoldSemiBold"), local("poppins/Poppins-SemiBold"), url("poppins/Poppinspoppins-boldsemibold.woff2") format("woff2"), url("poppins/Poppinspoppins-boldsemibold.woff") format("woff"), url("poppins/Poppinspoppins-boldsemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Thin"), local("poppins/Poppins-Thin"), url("poppins/Poppinsthin.woff2") format("woff2"), url("poppins/Poppinsthin.woff") format("woff"), url("poppins/Poppinsthin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Italic"), local("poppins/Poppins-Italic"), url("poppins/Poppinsitalic.woff2") format("woff2"), url("poppins/Poppinsitalic.woff") format("woff"), url("poppins/Poppinsitalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Medium Italic"), local("poppins/Poppins-MediumItalic"), url("poppins/Poppinsmediumitalic.woff2") format("woff2"), url("poppins/Poppinsmediumitalic.woff") format("woff"), url("poppins/Poppinsmediumitalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins ExtraLight Italic"), local("poppins/Poppins-ExtraLightItalic"), url("poppins/Poppinsextralightitalic.woff2") format("woff2"), url("poppins/Poppinsextralightitalic.woff") format("woff"), url("poppins/Poppinsextralightitalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 200; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins ExtraBold Italic"), local("poppins/Poppins-ExtraBoldItalic"), url("poppins/Poppinsextrabolditalic.woff2") format("woff2"), url("poppins/Poppinsextrabolditalic.woff") format("woff"), url("poppins/Poppinsextrabolditalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins ExtraBold"), local("poppins/Poppins-ExtraBold"), url("poppins/Poppinsextrabold.woff2") format("woff2"), url("poppins/Poppinsextrabold.woff") format("woff"), url("poppins/Poppinsextrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Light Italic"), local("poppins/Poppins-LightItalic"), url("poppins/Poppinslightitalic.woff2") format("woff2"), url("poppins/Poppinslightitalic.woff") format("woff"), url("poppins/Poppinslightitalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Black"), local("poppins/Poppins-Black"), url("poppins/Poppinsblack.woff2") format("woff2"), url("poppins/Poppinsblack.woff") format("woff"), url("poppins/Poppinsblack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Thin Italic"), local("poppins/Poppins-ThinItalic"), url("poppins/Poppinsthinitalic.woff2") format("woff2"), url("poppins/Poppinsthinitalic.woff") format("woff"), url("poppins/Poppinsthinitalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Poppins-SemiBoldMedium"), local("poppins/Poppins-Medium"), url("poppins/Poppinspoppins-semiboldmedium.woff2") format("woff2"), url("poppins/Poppinspoppins-semiboldmedium.woff") format("woff"), url("poppins/Poppinspoppins-semiboldmedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins ExtraLight"), local("/Poppins-ExtraLight"), url("poppins/Poppinsextralight.woff2") format("woff2"), url("poppins/Poppinsextralight.woff") format("woff"), url("poppins/Poppinsextralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Bold Italic"), local("/Poppins-BoldItalic"), url("poppins/Poppinsbolditalic.woff2") format("woff2"), url("poppins/Poppinsbolditalic.woff") format("woff"), url("poppins/Poppinsbolditalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins SemiBold Italic"), local("/Poppins-SemiBoldItalic"), url("poppins/Poppinssemibolditalic.woff2") format("woff2"), url("poppins/Poppinssemibolditalic.woff") format("woff"), url("poppins/Poppinssemibolditalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("poppins/Poppins Bold"), local("poppins/Poppins-Bold"), url("poppins/Poppinsbold.woff2") format("woff2"), url("poppins/Poppinsbold.woff") format("woff"), url("poppins/Poppinsbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: local("/Poppins Black Italic"), local("/Poppins-BlackItalic"), url("poppins/Poppinsblackitalic.woff2") format("woff2"), url("poppins/Poppinsblackitalic.woff") format("woff"), url("poppins/Poppinsblackitalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic; }

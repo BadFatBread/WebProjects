@@ -1,0 +1,129 @@
+
+.header
+  // padding: 2.5rem 0
+  border-bottom: 4px solid $black
+
+.header__left
+  cursor: pointer
+
+.header__center
+  font-size: 1rem
+  @include poppins(regular)
+  & .nav__list
+    display: flex
+    justify-content: space-between
+    width: 100%
+  & .nav__item
+    padding: 2.5rem 1rem
+    color: $black
+    cursor: pointer
+    transition: all .3s
+    white-space: nowrap
+    &:hover
+      @include poppins(bold)
+
+.header__right
+  text-align: right
+  @include poppins(bold)
+  & .header__apply
+    padding: .4rem 3rem
+    background: #fff
+    border-radius: 2rem
+    transition: background .2s, color .4s
+    cursor: pointer
+    box-shadow: 0px 30px 40px rgba(240, 101, 126, 0.05)
+    &:hover
+      box-shadow: $shadow
+      color: #ffffff
+      background: $black
+
+// LOGOTYPE // LOGOTYPE // LOGOTYPE
+
+.svg__logo
+  padding: 2.5rem 0
+
+.svg__logo:hover .lep1
+  animation: a_lep1 .8s ease-in-out infinite
+
+@keyframes a_lep1
+  0%
+    transform: rotate(5deg)
+
+  25%
+    transform: rotate(-1deg)
+
+  50%
+    // fill: $orange
+    opacity: .8
+
+  75%
+    transform: rotate(8deg)
+
+  100%
+    transform: rotate(5deg)
+
+.svg__logo:hover .lep2
+  animation: a_lep2 .8s ease-in-out infinite
+
+@keyframes a_lep2
+  0%
+    transform: rotate(40deg)
+
+  25%
+    transform: rotate(37deg)
+
+  50%
+    // fill: $blue
+    opacity: .9
+
+  75%
+    transform: rotate(41deg)
+
+  100%
+    transform: rotate(40deg)
+
+.svg__logo:hover .lep3
+  animation: a_lep3 .8s ease-in-out infinite
+
+@keyframes a_lep3
+  0%
+    transform: rotate(75deg)
+
+  25%
+    transform: rotate(79deg)
+
+  50%
+    // fill: $red
+    opacity: .85
+
+  75%
+    transform: rotate(73deg)
+
+  100%
+    transform: rotate(75deg)
+
+.lep1
+  fill: $blue
+  transform-origin: 9% 78%
+  transform: rotate(5deg)
+
+.lep2
+  fill: $red
+  transform-origin: 9% 78%
+  transform: rotate(40deg)
+  transition: all .3s ease-in
+
+.lep3
+  fill: $orange
+  transform-origin: 7.6% 76.3%
+  transform: rotate(75deg)
+  transition: all .3s ease-in
+
+.logo__text
+  @include poppins(bold)
+  fill: $black
+  font-size: 1.4rem
+  transform-origin: center
+
+.header>.row>.col
+  margin: 0

@@ -1,0 +1,98 @@
+.maincontent
+
+.nature__bird
+  width: 100%
+  background: $white
+  padding: 8rem 0
+  display: flex
+
+.nature__left
+  box-sizing: border-box
+
+.nature__svg
+  width: 100%
+
+.nature__desc
+  @include poppins(regular)
+  font-size: 1rem
+  line-height: 2rem
+  padding: 3.75rem 0 4rem
+  width: 82.35%
+
+.nature__place
+  @include poppins(regular)
+  position: relative
+  width: 82.35%
+
+.nature__label
+  display: block
+  font-size: 0.875rem
+  margin-left: 0.875rem
+  color: $d_gray
+  position: absolute
+  transform: translate(0%, 50%)
+  left: 0
+  bottom: 50%
+
+#nature__mail
+
+.nature__input
+  display: block
+  box-sizing: border-box
+  width: 100%
+  padding: 1.25rem
+  outline: none
+  border: none
+  background: #fff
+  @include poppins(regular)
+  font-size: 0.875rem
+  line-height: 1.5rem
+  border: 0 none
+  border-radius: 2rem
+  &:focus ~ .nature__label
+    color: transparent
+  &:not(:placeholder-shown) ~ .nature__label
+    color: transparent
+
+.btn
+  display: block
+  box-sizing: border-box
+  @include poppins (bold)
+  color: #fff
+  font-size: 0.8125rem
+  line-height: 140%
+  text-transform: uppercase
+  padding: 1rem 2rem
+  background: $red
+  border-radius: 2rem
+  position: absolute
+  transform: translate(-6%, -50%)
+  right: 0
+  top: 50%
+  cursor: pointer
+  transition: all .3s
+  &:hover
+    box-shadow: $shadow
+
+.nature__right
+  position: relative
+
+.card
+  width: 50%
+  position: absolute
+  z-index: 2
+  transform: translate(-20%, 10%)
+  bottom: 0
+  left: 0
+  &__text
+    @include poppins(bold)
+    font-size: 3.5rem
+    fill: white
+
+.bird
+  width: 84.375%
+  position: absolute
+  z-index: 1
+  transform: translate(0%, -10%)
+  right: 0
+  top: 0

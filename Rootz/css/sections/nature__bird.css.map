@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,SAAS,CAAC;EACR,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,aAAa;CAAG;;AAC3B,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,aAAa;CAAG",
+    "sources": [
+        "nature__bird.sass"
+    ],
+    "names": [],
+    "file": "nature__bird.css"
+}

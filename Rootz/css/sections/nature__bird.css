@@ -1,0 +1,13 @@
+.maincontent {
+  background: #fff;
+  padding: 100px 0;
+  outline: 1px solid red; }
+
+.main__left {
+  box-sizing: border-box; }
+
+.nature__place {
+  position: relative; }
+
+.btn {
+  position: absolute; }
