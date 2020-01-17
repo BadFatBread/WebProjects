@@ -13,16 +13,16 @@
   width: 100%
 
 .nature__desc
-  @include poppins(regular)
   font-size: 1rem
   line-height: 2rem
   padding: 3.75rem 0 4rem
   width: 82.35%
+  @include poppins(regular)
 
 .nature__place
-  @include poppins(regular)
   position: relative
   width: 82.35%
+  @include poppins(regular)
 
 .nature__label
   display: block
@@ -44,11 +44,11 @@
   outline: none
   border: none
   background: #fff
-  @include poppins(regular)
   font-size: 0.875rem
   line-height: 1.5rem
   border: 0 none
   border-radius: 2rem
+  @include poppins(regular)
   &:focus ~ .nature__label
     color: transparent
   &:not(:placeholder-shown) ~ .nature__label
@@ -57,7 +57,6 @@
 .btn
   display: block
   box-sizing: border-box
-  @include poppins (bold)
   color: #fff
   font-size: 0.8125rem
   line-height: 140%
@@ -70,9 +69,11 @@
   right: 0
   top: 50%
   cursor: pointer
-  transition: all .3s
+  transition: all .15s
+  @include poppins (bold)
   &:hover
     box-shadow: $shadow
+    opacity: .85
 
 .nature__right
   position: relative
@@ -85,9 +86,11 @@
   bottom: 0
   left: 0
   &__text
-    @include poppins(bold)
+    display: block
     font-size: 3.5rem
     fill: white
+    cursor: pointer
+    @include poppins(bold)
 
 .bird
   width: 84.375%

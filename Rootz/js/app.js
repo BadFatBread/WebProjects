@@ -10,7 +10,6 @@ $('.card__text').each(function () {
   });
 });
 
-
 let lis = document.querySelectorAll("ul li");
 let li;
 
@@ -18,3 +17,5 @@ for (let i = 0; i < lis.length; i += 1) {
   li = lis.item(i);
   li.style.width = li.getBoundingClientRect().width + "px";
 }
+
+let nature__bird = document.querySelectorAll('.card__text');

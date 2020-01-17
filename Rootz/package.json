@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bxslider": "^4.2.14",
     "node-sass": "^4.13.0"
   },
   "devDependencies": {},

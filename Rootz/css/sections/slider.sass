@@ -1,0 +1,76 @@
+
+.bbb
+  width: 300px
+  height: 300px
+  background: red
+  margin: 20px
+
+.slider
+  width: 100%
+
+.slider__wrap
+  width: inherit
+  // display: 
+  width: 100%
+  padding: 5.75rem 0
+
+.slider__desc
+  font-size: 1.125rem
+  line-height: 2rem
+  @include poppins(regular)
+
+.sider-1
+  background: $orange
+.sider-2
+  background: $red
+.sider-3
+  background: $blue
+
+.slider__item
+  overflow: hidden
+  margin: 0 auto
+  margin-bottom: 60px
+  border-radius: 2rem
+  color: $black
+  display: flex
+  justify-content: space-between
+  max-width: 992px
+  height: 512px
+  width: 88.571%
+  &__left
+    width: 40%
+    max-width: 23.275rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 5rem 5.875rem 5rem 4rem
+  &__right
+    width: 59%
+    position: relative
+    &-block1
+      margin: 0 auto
+      width: 20rem
+      height: 27rem
+      border-radius: 2rem 2rem 0 0
+      background: #F7F3F4
+      transform: translate(15%, 0%)
+      position: absolute
+      z-index: 1
+      bottom: 0
+    &-block2
+      width: 6rem
+      height: 23rem
+      border-radius: 0 2rem 0 0
+      background: #F7F3F4
+      opacity: .5
+      transform: translate(-70%, 0%)
+      position: absolute
+      right: 0
+      bottom: 0
+      z-index: 0
+
+  .slider__title
+    line-height: 3.5rem
+    padding-bottom: 2.625rem
+    font-size: 2.5rem
+    @include poppins(bold)
